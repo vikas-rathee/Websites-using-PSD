@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  width: 100%;
+  font-family: Georgia;
+}
+
+.wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header img{
+  float: left;
+  width: 100px;
+  margin: 10px 0;
+}
+
+header nav {
+  float: right;
+}
+header nav ul{
+  list-style-type: none;
+  float: left;
+}
+header nav ul a{
+  float: left;
+  text-decoration: none;
+  margin: 10px 20px;
+  color: #333;
+}
+header nav ul li{
+  padding: 10px 0;
+}
+
+#page-banner, #banner img{
+  width: 100%;
+}
+
+#banner img{
+  border-bottom: 4px solid rgb(243,73,73);
+}
+
+#menu img{
+  position: relative;
+  display: block;
+  top: -5px;
+  margin: auto;
+  clear: both;
+
+}
+
+#menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+#menu ul li{
+  float: left;
+  width: 40%;
+  margin: 10px 0 10px 10%;
+  padding: 0;
+}
+
+#menu ul li:nth-child(odd){
+  margin: 10px 10% 10px 0;
+}
+#menu .dish-name{
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding-right: 10px;
+}
+
+#menu .dish-price{
+  float: right;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+#menu .dish-description{
+  color: #888;
+  display: block;
+  clear: both;
+  font-style: italic;
+  font-size: 13px;
+  padding-top: 5px;
+  border-top: 1px solid #aaa;
+  position: relative;
+  top: -7px;
+}
+
+#menu ul::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+#featured ul {
+  padding: 0;
+  list-style-type: none;
+  clear: both;
+  margin-top: 100px;
+}
+
+#featured ul::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#featured ul li{
+  float: left;
+  width: 21%;
+  margin: 10px 5.33% 10px 0px;
+}
+
+#featured ul li:nth-last-child(1)
+{
+  margin: 10px 0px 10px 0px;
+}
+
+#featured ul li img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#featured ul li .img-name{
+  width: 70%;
+}
+
+#featured ul li .img-price{
+  float: right;
+
+}
+
+footer::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+footer{
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(59,59,59);
+  color: white;
+}
+
+footer ul{
+  list-style-type: none;
+  padding: none;
+  width: 21%;
+  float: left;
+  margin-right: 5.33%;
+}
+
+footer ul:nth-last-child(1)
+{
+  margin-right: 0;
+}
+footer ul li{
+  line-height: 1.5em;
+}
+
+footer ul li a{
+  color: pink;
+}
